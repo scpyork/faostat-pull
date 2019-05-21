@@ -3,4 +3,4 @@ An automated diff tool for checking new iterations of the FAOstat data, and pull
 
 
 ## Running
-python serial_run.py
+`python serial_run.py`

@@ -83,7 +83,7 @@ needs_update = []
 d_url=''
 
 mainlog = open(__location__+"changes.log", "a")
-mainlog.write("\n\n\n############ %s ############\n\n\n"%datetime.now().strftime('%Y-%m-%d'))
+mainlog.write("\n\n############ %s ############\n\n"%datetime.now().strftime('%Y-%m-%d'))
             
 
 for item,dataset in enumerate(latest):
